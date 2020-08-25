@@ -22,7 +22,7 @@ import models.errors.{BadRequestError, ValidationError, InternalServiceError, No
 import play.api.libs.json._
 import play.api.mvc.{Action, AnyContent, ControllerComponents, Result}
 import services.ApprovalService
-import uk.gov.hmrc.play.bootstrap.controller.BackendController
+import uk.gov.hmrc.play.bootstrap.backend.controller.BackendController
 import utils.Constants._
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future

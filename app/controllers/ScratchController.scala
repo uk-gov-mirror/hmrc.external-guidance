@@ -21,7 +21,7 @@ import models.errors.{BadRequestError, ValidationError, Error, InternalServiceEr
 import play.api.libs.json.{JsObject, JsValue, Json}
 import play.api.mvc.{Action, AnyContent, ControllerComponents}
 import services.ScratchService
-import uk.gov.hmrc.play.bootstrap.controller.BackendController
+import uk.gov.hmrc.play.bootstrap.backend.controller.BackendController
 import play.api.Logger
 import scala.concurrent.ExecutionContext.Implicits.global
 
